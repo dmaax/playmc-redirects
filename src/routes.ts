@@ -4,7 +4,7 @@ const discordRedirect = ctx => {
 
 const shopRedirect = ctx => {
     return ctx.redirect('https://loja.playnetwork.com.br', 301);
-}
+};
 
 export default app => {
     app.get('/d', discordRedirect)
