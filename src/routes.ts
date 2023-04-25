@@ -7,7 +7,7 @@ const shopRedirect = ctx => {
 };
 
 const liveRedirect = ctx => {
-    return ctx.redirect('https://www.youtube.com/c/EduPlaysmdhapc/live', 301);
+    return ctx.redirect('https://www.twitch.tv/Eduuardal_', 301);
 };
 
 export default app => {
